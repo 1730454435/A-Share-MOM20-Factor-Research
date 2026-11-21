@@ -8,17 +8,19 @@ The study examines a selected sample of 50 Chinese A-share stocks using daily pr
 
 ## Methodology
 
-**Factor Definition**
 
-\[
-MOM20_{i,t}=\frac{P_{i,t}}{P_{i,t-20}}-1
-\]
+### Factor Definition
 
-**Forward Return**
+$$
+MOM20_{i,t} = \frac{P_{i,t}}{P_{i,t-20}} - 1
+$$
 
-\[
-R_{i,t\rightarrow t+5}=\frac{P_{i,t+5}}{P_{i,t}}-1
-\]
+### Forward Return
+
+$$
+R_{i,t\rightarrow t+5} = \frac{P_{i,t+5}}{P_{i,t}} - 1
+$$
+
 
 The analysis includes:
 
